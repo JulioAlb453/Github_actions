@@ -13,5 +13,7 @@ func main() {
 		ctx.JSON(http.StatusOK, map[string]string{"status": "ok"})
 	})
 
+	//test status
+
 	r.Run(":8080")
 }
